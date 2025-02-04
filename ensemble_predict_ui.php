@@ -3,7 +3,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 use PhpmlExercise\Classification\SentimentPipeline;
 
-ini_set('memory_limit', '1024M');
+ini_set('memory_limit', '5024M');
 set_time_limit(0);
 ini_set('display_errors', 1);
 ini_set('log_errors', 1);

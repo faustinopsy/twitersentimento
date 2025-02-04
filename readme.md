@@ -38,6 +38,12 @@ Essa estratégia permite reduzir o consumo de memória durante o treinamento, co
 ## Treinamento por lotes concluído.
 Memória utilizada durante o treinamento: 440,528,096 bytes (420.12 MB)
 Pico de memória utilizado: 775,715,840 bytes (739.78 MB)
+* para rodar a UI precisa ter 5Gb de RAM
+logo precisa desse ajuste no ensemble_predict_ui:
+ini_set('memory_limit', '5024M');
+```
+Memória utilizada na predição: 4,367,601,488 bytes (4,165.27 MB)
+```
 
 Além disso, testes futuros serão realizados utilizando um memory_limit menor (por exemplo, 1024M) para verificar se os modelos ainda podem ser gerados com sucesso.
 
