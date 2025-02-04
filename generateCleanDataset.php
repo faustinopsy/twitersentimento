@@ -1,19 +1,13 @@
 <?php
-/**
- * User: Allan MacGregor <amacgregor@allanmacgregor.com>
- * Date: 2017-05-07
- * Time: 12:08 PM
- * Project: phpml-exercise
- */
 
 namespace PhpmlExercise;
 
-require __DIR__ . './vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use Phpml\Exception\FileException;
 
-$sourceFilepath         = __DIR__ . './datasets/Tweets.csv';
-$destinationFilepath    = __DIR__ . './datasets/clean_tweets.csv';
+$sourceFilepath         = __DIR__ . '/datasets/Tweets.csv';
+$destinationFilepath    = __DIR__ . '/datasets/clean_tweets.csv';
 
 $rows =[];
 
